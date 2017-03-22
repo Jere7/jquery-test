@@ -5,13 +5,16 @@
 </head>
 <body>
 
-<div id="divTest1"></div>
-
-<script type="text/javascript">
-$("#divTest1").text("Hello, world!");
+<script>
+  $(document).ready(function(){
+    $('#MyButton').click(function(){
+       CapacityChart();
+    });
+  });
 </script>
 
-<button>Click me</button>
+<input type="button" value="Capacity Chart" id="MyButton" >
 
-</body>
+</body> 
+
 </html>
